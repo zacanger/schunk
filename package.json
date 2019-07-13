@@ -1,0 +1,38 @@
+{
+  "name": "schunk",
+  "description": "schunk",
+  "version": "0.0.1",
+  "author": {
+    "email": "zac@zacanger.com",
+    "name": "Zac Anger",
+    "url": "https://zacanger.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "preversion": "sortpack && npm t",
+    "test": "npm run test:lint && npm run test:tape",
+    "test:lint": "standard",
+    "test:tape": "tape test.js"
+  },
+  "homepage": "https://github.com/zacanger/schunk#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/schunk.git"
+  },
+  "bugs": "https://github.com/zacanger/schunk/issues",
+  "keywords": [
+    "",
+    "schunk"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "sortpack": "1.2.0",
+    "standard": "13.0.2",
+    "tape": "4.11.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
