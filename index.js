@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const fs = require('fs')
 
 const rmrf = (d) => {
@@ -12,4 +10,4 @@ const rmrf = (d) => {
   fs.rmdirSync(d)
 }
 
-rmrf('/')
+module.exports = rmrf

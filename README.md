@@ -1,5 +1,5 @@
 # schunk
 
-Do Not Run This
+rm -rf
 
 [MIT](./LICENSE.md)
