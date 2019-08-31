@@ -7,7 +7,7 @@
     "name": "Zac Anger",
     "url": "https://zacanger.com"
   },
-  "license": "MIT",
+  "license": "LGPL-3.0",
   "main": "index.js",
   "homepage": "https://github.com/zacanger/schunk#readme",
   "repository": {

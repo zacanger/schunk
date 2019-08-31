@@ -2,4 +2,4 @@
 
 rm -rf
 
-[MIT](./LICENSE.md)
+[LICENSE](./LICENSE.md)
